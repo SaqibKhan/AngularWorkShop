@@ -8,6 +8,8 @@ import { GridControlComponent } from './grid-control/grid-control.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {HttpClientModule} from '@angular/common/http';
 import {CdkTableModule} from '@angular/cdk/table';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
 
 import {
   MatAutocompleteModule,
@@ -42,6 +44,8 @@ import {
   MatTooltipModule,
   MatStepperModule,
 } from '@angular/material';
+import { SlidBar01Component } from './slid-bar01/slid-bar01.component';
+import { SlidBar02Component } from './slid-bar02/slid-bar02.component';
 
 
 
@@ -49,6 +53,8 @@ import {
   declarations: [
     AppComponent,
     GridControlComponent,
+    SlidBar01Component,
+    SlidBar02Component,
   ],
   imports: [
     BrowserModule,
@@ -90,6 +96,7 @@ import {
     MatTabsModule,
     MatToolbarModule,
     MatTooltipModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
